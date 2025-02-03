@@ -1,0 +1,9 @@
+tunnels:
+    grpc:
+        proto: tcp
+        addr: 50051
+        inspect: false
+version: "3"
+agent:
+    connect_url: connect.in.ngrok-agent.com:443
+    authtoken: 2sUeuykwTI9BWAjy2I5qmUIyj5u_2DBFCbHKAw1hoQoQidhs9
